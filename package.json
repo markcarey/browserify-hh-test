@@ -1,0 +1,22 @@
+{
+  "name": "browserify-hh-test",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "author": "Mark Carey",
+  "dependencies": {
+    "express": "~4.13.3",
+    "handlebars": "^4.0.5",
+    "handlebars-helpers": "^0.6.1"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-declare": "^0.3.0",
+    "gulp-handlebars": "^4.0.0",
+    "gulp-wrap": "^0.13.0",
+    "lazy-cache": "^2.0.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}

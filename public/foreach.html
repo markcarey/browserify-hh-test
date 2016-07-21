@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+  </head>
+
+  <body>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.runtime.min.js"></script>
+    <script type="text/javascript" src="/templates/index.js"></script>
+    <script type="text/javascript" src="/javascript/hh.js"></script>
+  
+    <script type="text/javascript">
+      $( document ).ready(function() {
+        var data = {"contacts": [ {"name": "Bob", "phone": "416-967-1111"},{"name": "Joe", "phone": "416-555-1111"}]};
+        $('body').prepend(templates.foreach(data));
+      });
+    </script>
+    
+  </body>
+
+</html>
